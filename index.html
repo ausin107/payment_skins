@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Starter</title>
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black">
+    <main class="p-4">
+      <div></div>
+      <div class="flex border-[3px] w-fit bg-[url('/assets/btc_bg.png')] border-[#ffd400] rounded-2xl p-5">
+        <!-- <img src="/assets/btc_bg.png" class="w-full h-full relative" /> -->
+        <div class="flex items-center justify-center">
+          <img src="/assets/stripe.png" alt="Logo" class="h-14 w-14 mr-3" />
+          <p class="text-white text-[26px] font-semibold mr-8">Stripe</p>
+          <p class="text-xl font-light text-white mr-4">3.3% + 30 ¢</p>
+          <div
+            class="flex items-center justify-start border-[#ffffff26] rounded w-[200px] h-[26px] px-2 mr-2 shadow-[0_0_30px_#ffd40063]"
+          >
+            <div class="text-[#ffd400]">$</div>
+            <input class="text-white bg-black outline-none" value="100" />
+          </div>
+          <button
+            class="uppercase w-16 h-6 text-xs bg-[#ffd400] rounded text-center font-bold shadow-[0_0_30px_#ffd40063]"
+          >
+            Deposit
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
